@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fundo{
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+    color: black;
+    font-family: Verdana, 'sans-serif';
+}
+span{
+    color: orange;
+}
+@keyframes piscar {
+    0%{
+      opacity: 1;
+    }
+    50%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1; 
+    }
+  } 
+.titulo{
+    color: red;
+    animation: piscar 1s infinite;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.decisiva{
+    color: palevioletred;
+}
+.pergunta{
+    font-size: 17px;
+}
+.resposta{
+    background-color: pink;
+    margin-bottom: 10px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.davi{
+    width: 250px;
+    height: 250px;
+}
+#enviar{
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 25px;
+    width: 80px;
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+.resultado{
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+  
